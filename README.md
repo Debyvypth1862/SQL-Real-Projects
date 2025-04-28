@@ -10,7 +10,7 @@ Through these projects, you'll learn how to apply SQL concepts to solve complex 
 
 ## 🚀 Projects Overview:
 
-### [Data Transformation & Reporting](https://github.com/yourusername/SQLinRealWorld/blob/main/DataTransformation.md)
+### [Data Transformation & Reporting](https://github.com/Debyvypth1862/SQL-Real-Projects/blob/main/DataTransformation.md)
 Learn how to transform raw data into actionable insights for business reporting and analytics.
 
 - **Data Cleansing**: Removing duplicates, filling missing values, and ensuring data integrity for reporting.
