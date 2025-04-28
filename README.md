@@ -22,7 +22,7 @@ In this project, we focus on applying SQL to analyze business performance metric
 - **Sales Metrics Analysis**: Using SQL to analyze sales trends, calculate growth, and identify top-performing products or regions.
 - **Customer Segmentation**: Segmenting customers by demographics, behavior, and purchase history using SQL filters.
 
-### [Optimizing SQL Queries](https://github.com/yourusername/SQLinRealWorld/blob/main/QueryOptimization.md)
+### [Optimizing SQL Queries](https://github.com/Debyvypth1862/SQL-Real-Projects/blob/main/QueryOptimization.md)
 Learn how to optimize SQL queries for large datasets, ensuring that your reports and dashboards load quickly and efficiently.
 
 - **Indexing**: Improving query performance by creating indexes on frequently accessed columns.
@@ -34,13 +34,13 @@ Learn how to optimize SQL queries for large datasets, ensuring that your reports
 
 Here are some specific examples from my work where I applied SQL to solve business challenges:
 
-- [**Sales Analysis with Joins**](https://github.com/yourusername/SQLinRealWorld/blob/main/SalesAnalysisJoins.md): A practical example of using various JOINs (INNER, LEFT, RIGHT) to combine sales data across multiple tables, providing comprehensive insights into business performance.
+- [**Sales Analysis with Joins**](https://github.com/Debyvypth1862/SQLinRealWorld/blob/main/SalesAnalysisJoins.md): A practical example of using various JOINs (INNER, LEFT, RIGHT) to combine sales data across multiple tables, providing comprehensive insights into business performance.
   
-- [**Customer Data Segmentation with Filters**](https://github.com/yourusername/SQLinRealWorld/blob/main/CustomerSegmentation.md): Segmenting customers using SQL filters based on demographic data and previous purchase history, helping businesses create targeted marketing campaigns.
+- [**Customer Data Segmentation with Filters**](https://github.com/Debyvypth1862/SQLinRealWorld/blob/main/CustomerSegmentation.md): Segmenting customers using SQL filters based on demographic data and previous purchase history, helping businesses create targeted marketing campaigns.
 
-- [**Data Consolidation with UNION**](https://github.com/yourusername/SQLinRealWorld/blob/main/DataConsolidationUnion.md): Using the UNION operator to combine data from multiple sources into one dataset for unified reporting and analysis.
+- [**Data Consolidation with UNION**](https://github.com/Debyvypth1862/SQLinRealWorld/blob/main/DataConsolidationUnion.md): Using the UNION operator to combine data from multiple sources into one dataset for unified reporting and analysis.
 
-- [**Business Performance Reporting with Aggregation**](https://github.com/yourusername/SQLinRealWorld/blob/main/BusinessReportAggregation.md): Aggregating business performance data like sales, revenue, and product performance to provide key insights for strategic decision-making.
+- [**Business Performance Reporting with Aggregation**](https://github.com/Debyvypth1862/SQLinRealWorld/blob/main/BusinessReportAggregation.md): Aggregating business performance data like sales, revenue, and product performance to provide key insights for strategic decision-making.
 
 ---
 
