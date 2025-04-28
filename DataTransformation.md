@@ -38,7 +38,7 @@ The project uses a hypothetical `sales_data` table which records sales transacti
 
 #### Remove Duplicates
 
-To ensure that our analysis isn't impacted by duplicate records, we’ll identify and remove any duplicates based on the `order_id` column.
+To ensure that our analysis isn't impacted by duplicate records, I’ll identify and remove any duplicates based on the `order_id` column.
 
 ```sql
 -- Remove duplicate rows based on order_id
@@ -50,7 +50,7 @@ SELECT * FROM Deduplicated;
 
 #### Handle Missing Values
 
-We’ll check for missing values in critical columns like `order_value` and `order_date`. If a value is missing, we'll fill it with appropriate defaults or remove those rows.
+I’ll check for missing values in critical columns like `order_value` and `order_date`. If a value is missing, I'll fill it with appropriate defaults or remove those rows.
 
 ```sql
 -- Fill missing order_value with the average order_value
@@ -69,7 +69,7 @@ SELECT * FROM Cleaned;
 
 #### Ensure Correct Data Types
 
-We can also check for any non-numeric values in the `order_value` column.
+I can also check for any non-numeric values in the `order_value` column.
 
 ```sql
 -- Check for non-numeric values in order_value column
@@ -82,7 +82,7 @@ SELECT * FROM sales_data WHERE NOT order_value ~ '^\d+(\.\d+)?$';
 
 #### Total Sales by Region
 
-We’ll calculate total sales by region to understand where most of the revenue is coming from.
+I’ll calculate total sales by region to understand where most of the revenue is coming from.
 
 ```sql
 -- Aggregate total sales by region
@@ -104,7 +104,7 @@ GROUP BY region;
 
 #### Customer Segmentation Based on Spend
 
-We’ll segment customers into different categories based on their total spend.
+I’ll segment customers into different categories based on their total spend.
 
 ```sql
 -- Segment customers based on total spend
@@ -138,7 +138,7 @@ ORDER BY total_sales DESC;
 
 #### Sales Performance by Date Range (Monthly Report)
 
-We can create a report to see how sales have performed over time (monthly aggregation).
+I can create a report to see how sales have performed over time (monthly aggregation).
 
 ```sql
 -- Aggregate sales by month
@@ -155,7 +155,7 @@ ORDER BY month DESC;
 
 ### **Visualizations & Dashboards**
 
-Once the data is aggregated, we can use visualization tools like **Power BI**, **Tableau**, or **Matplotlib** (Python) to create dashboards.
+Once the data is aggregated, I can use visualization tools like **Power BI**, **Tableau**, or **Matplotlib** (Python) to create dashboards.
 
 1. **Sales Performance by Region** – Bar chart showing total sales by region.
 2. **Top Products** – Bar chart showing the top-selling products.

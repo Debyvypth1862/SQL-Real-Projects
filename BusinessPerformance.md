@@ -1,10 +1,10 @@
-### **Project: Business Performance Analysis**
+## **Project: Business Performance Analysis**
 
 ---
 
 ## **Overview**
 
-In this project, we will use SQL to analyze business performance by looking at:
+In this project, I will use SQL to analyze business performance by looking at:
 
 1. **Sales Metrics Analysis** – To track trends, measure growth, and identify top-performing products and regions.
 2. **Customer Segmentation** – To segment customers based on demographics, behavior, and purchase history.
@@ -13,7 +13,7 @@ This type of analysis can help companies improve sales performance, target high-
 
 ### **Data Source**
 
-We are assuming the data is stored in the following tables:
+I are assuming the data is stored in the following tables:
 - **sales_data**: This table contains transaction data.
 - **customer_data**: This table contains customer demographic data.
 - **product_data**: This table contains product details.
@@ -77,7 +77,7 @@ We are assuming the data is stored in the following tables:
 
 #### **Total Sales by Region**
 
-To see how sales perform across different regions, we aggregate the `sales_data` by region and calculate the total sales per region.
+To see how sales perform across different regions, I aggregate the `sales_data` by region and calculate the total sales per region.
 
 ```sql
 -- Calculate total sales by region
@@ -91,7 +91,7 @@ ORDER BY total_sales DESC;
 
 #### **Sales Growth (Month-to-Month)**
 
-To calculate the growth in sales month-over-month, we first group the data by month and year. Then we calculate the sales for each month and find the growth percentage.
+To calculate the growth in sales month-over-month, I first group the data by month and year. Then I calculate the sales for each month and find the growth percentage.
 
 ```sql
 -- Sales growth month-to-month
@@ -113,7 +113,7 @@ ORDER BY month DESC;
 
 #### **Top Products by Total Sales**
 
-To identify the top-selling products, we aggregate the `sales_data` by `product_id` and calculate the total sales for each product.
+To identify the top-selling products, I aggregate the `sales_data` by `product_id` and calculate the total sales for each product.
 
 ```sql
 -- Identify top-selling products
@@ -133,7 +133,7 @@ LIMIT 10;
 
 #### **Customer Segmentation by Loyalty Status**
 
-Segment customers based on their loyalty status (e.g., Platinum, Gold, Silver, Bronze). We can calculate the total spend for each loyalty status group.
+Segment customers based on their loyalty status (e.g., Platinum, Gold, Silver, Bronze). I can calculate the total spend for each loyalty status group.
 
 ```sql
 -- Segment customers by loyalty status
