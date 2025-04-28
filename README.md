@@ -16,7 +16,7 @@ Learn how to transform raw data into actionable insights for business reporting 
 - **Data Cleansing**: Removing duplicates, filling missing values, and ensuring data integrity for reporting.
 - **Aggregation**: Using SQL to summarize data, calculate KPIs, and create comprehensive reports.
 
-### [Business Performance Analysis](https://github.com/yourusername/SQLinRealWorld/blob/main/BusinessPerformance.md)
+### [Business Performance Analysis](https://github.com/Debyvypth1862/SQL-Real-Projects/blob/main/BusinessPerformance.md)
 In this project, we focus on applying SQL to analyze business performance metrics, helping businesses track success.
 
 - **Sales Metrics Analysis**: Using SQL to analyze sales trends, calculate growth, and identify top-performing products or regions.

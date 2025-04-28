@@ -1,7 +1,5 @@
 ## **Project: Business Performance Analysis**
 
----
-
 ## **Overview**
 
 In this project, I will use SQL to analyze business performance by looking at:
